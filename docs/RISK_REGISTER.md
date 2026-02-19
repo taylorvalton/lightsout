@@ -1,6 +1,6 @@
 # LightsOut Risk Register
 
-**NGen Project 14091** | **Last Updated:** Q7 (November 2025)
+**NGen Project 14091** | **Last Updated:** Q8 (February 2026)
 
 ---
 
@@ -22,42 +22,45 @@ Risks are scored using a **Likelihood x Impact** matrix:
 
 ---
 
-## Active Risks — Sorted by Q7 Mitigated Score (Descending)
+## Active Risks — Sorted by Q8 Mitigated Score (Descending)
 
 ### Critical / High Risks (Score 24+)
 
-| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Trend |
-|---|----------|-----------|-------|----------|---------------|----------|-------|
-| **5** | Technical | MPA design takes longer than expected and/or costs more than projected | Sidac | Mitigate | 64 | **48** | Increasing |
-| **6** | Technical | Bottle/pump insertion speed will not meet throughput requirements | Petra | Manage | 96 | **40** | Increasing |
-| **3** | Managerial | Insufficient resource bandwidth or loss of key personnel | Petra | Mitigate | 48 | **32** | Increasing |
-| **17** | Technical | Lack of shared knowledge between teams delaying AI + robotics integration | Analytika | Mitigate | 48 | **32** | Stable |
-| **1** | Operational | Human safety risk working with COBOTs in production environment | Petra | Avoid | 128 | **32** | Stable |
-| **20** | Managerial | Procurement delays due to bandwidth, financial constraints, or wrong parts | Petra | Mitigate | 32 | **30** | Increasing |
-| **14** | Technical | Excessive downtime from mechanical or software failure in production | Petra | Mitigate | 48 | **24** | Increasing |
-| **15** | Technical | Recipe creation still requires manual recalibration after AI generation | Petra | Manage | 64 | **24** | Increasing |
+| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Q8 Score | Trend |
+|---|----------|-----------|-------|----------|---------------|----------|----------|-------|
+| **5** | Technical | MPA design takes longer than expected and/or costs more than projected | Sidac | Mitigate | 64 | 48 | **36** | Decreasing |
+| **6** | Technical | Bottle/pump insertion speed will not meet throughput requirements | Petra | Manage | 96 | 40 | **32** | Decreasing |
+| **17** | Technical | Lack of shared knowledge between teams delaying AI + robotics integration | Analytika | Mitigate | 48 | 32 | **32** | Stable |
+| **1** | Operational | Human safety risk working with COBOTs in production environment | Petra | Avoid | 128 | 32 | **32** | Stable |
+| **3** | Managerial | Insufficient resource bandwidth or loss of key personnel | Petra | Mitigate | 48 | 32 | **24** | Decreasing |
+| **15** | Technical | Recipe creation still requires manual recalibration after AI generation | Petra | Manage | 64 | 24 | **24** | Stable |
 
 ### Medium Risks (Score 9-23)
 
-| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Trend |
-|---|----------|-----------|-------|----------|---------------|----------|-------|
-| **4** | Technical | Image recognition software takes longer/more resources than anticipated | Analytika | Mitigate | 64 | **16** | Stable |
-| **9** | Regulatory | Manufacturing standards or regulation changes affecting project | Petra | Mitigate | 32 | **16** | Stable |
-| **18** | Technical | Messaging standard for manufacturing communication not defined | Analytika | Mitigate | 48 | **16** | Stable |
+| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Q8 Score | Trend |
+|---|----------|-----------|-------|----------|---------------|----------|----------|-------|
+| **20** | Managerial | Procurement delays due to bandwidth, financial constraints, or wrong parts | Petra | Mitigate | 32 | 30 | **20** | Decreasing |
+| **14** | Technical | Excessive downtime from mechanical or software failure in production | Petra | Mitigate | 48 | 24 | **18** | Decreasing |
+| **4** | Technical | Image recognition software takes longer/more resources than anticipated | Analytika | Mitigate | 64 | 16 | **16** | Stable |
+| **9** | Regulatory | Manufacturing standards or regulation changes affecting project | Petra | Mitigate | 32 | 16 | **16** | Stable |
+| **18** | Technical | Messaging standard for manufacturing communication not defined | Analytika | Mitigate | 48 | 16 | **16** | Stable |
+| **21** | Technical | Suction EOAT bellows cup degradation under continuous production | Sidac | Mitigate | 48 | — | **16** | NEW |
+| **22** | Technical | Centering nest 3D print tolerances drift affecting insertion precision | Sidac | Mitigate | 32 | — | **12** | NEW |
+| **23** | Technical | FlexiBowl puck design iteration delays across 5+ product families | Sidac | Mitigate | 32 | — | **12** | NEW |
 
 ### Low Risks (Score 1-8)
 
-| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Trend |
-|---|----------|-----------|-------|----------|---------------|----------|-------|
-| 2 | Managerial | Personnel issues between consortium collaborators | Petra | Transfer | 32 | 8 | Stable |
-| 7 | Commercial | Vendors not complying with contract terms | Petra | Manage | 8 | 8 | Stable |
-| 10 | Financial | Unforeseen spike in project costs | Petra | Mitigate | 16 | 8 | Stable |
-| 8 | Resource | Shortage of high-skilled labor for maintenance/operation | Petra | Manage | 8 | 4 | Stable |
-| 11 | Financial | Decrease in product demand / no payback on investment | Petra | Transfer | 4 | 4 | Stable |
-| 12 | Managerial | Key manager absence costing time and money | Analytika | Manage | 6 | 4 | Stable |
-| 13 | Redundancy | Power outage for extended period disrupting production | Petra | Mitigate | 4 | 4 | Stable |
-| 16 | Technical | Insufficient access to product samples for AI vision training | Analytika | Mitigate | 16 | 4 | Decreasing |
-| 19 | Managerial | Project not starting on-time | Petra | Mitigate | 12 | 4 | Stable |
+| # | Category | Risk Event | Owner | Strategy | Inherent Score | Q7 Score | Q8 Score | Trend |
+|---|----------|-----------|-------|----------|---------------|----------|----------|-------|
+| 2 | Managerial | Personnel issues between consortium collaborators | Petra | Transfer | 32 | 8 | 8 | Stable |
+| 7 | Commercial | Vendors not complying with contract terms | Petra | Manage | 8 | 8 | 8 | Stable |
+| 10 | Financial | Unforeseen spike in project costs | Petra | Mitigate | 16 | 8 | 8 | Stable |
+| 8 | Resource | Shortage of high-skilled labor for maintenance/operation | Petra | Manage | 8 | 4 | 4 | Stable |
+| 11 | Financial | Decrease in product demand / no payback on investment | Petra | Transfer | 4 | 4 | 4 | Stable |
+| 12 | Managerial | Key manager absence costing time and money | Analytika | Manage | 6 | 4 | 4 | Stable |
+| 13 | Redundancy | Power outage for extended period disrupting production | Petra | Mitigate | 4 | 4 | 4 | Stable |
+| 16 | Technical | Insufficient access to product samples for AI vision training | Analytika | Mitigate | 16 | 4 | 4 | Decreasing |
+| 19 | Managerial | Project not starting on-time | Petra | Mitigate | 12 | 4 | 4 | Stable |
 
 ---
 
@@ -89,32 +92,37 @@ Risks are scored using a **Likelihood x Impact** matrix:
 
 ---
 
-## Risk Trend Analysis (Q1 → Q7)
+## Risk Trend Analysis (Q1 → Q8)
 
-### Worsening Risks
+### Improving Risks (Q8)
 
-| Risk | Q1 | Q3 | Q5 | Q7 | Commentary |
+| Risk | Q1 | Q5 | Q7 | Q8 | Commentary |
 |------|-----|-----|-----|-----|-----------|
-| **#5 (MPA Design)** | 16 | 16 | 24 | **48** | Tipping problem with tall caps/pumps discovered in Q6; elevated significantly. Pump insertion redesign is the primary mitigation. |
-| **#6 (Throughput)** | 32 | 32 | 32 | **40** | Linked to insertion system errors; new product introduction causing failures. FlexiBowl + EOAT upgrade expected to mitigate. |
-| **#3 (Resources)** | 16 | 16 | 16 | **32** | Team bandwidth stretched by insertion redesign effort on top of existing workstreams. |
-| **#20 (Procurement)** | 18 | 18 | 18 | **30** | Tariff uncertainty and vendor lead times (FlexiBowl 12-16 weeks) contributing factors. |
-| **#14 (Downtime)** | 18 | 18 | 18 | **24** | Insertion system errors causing unplanned downtime; changeover still manual in some areas. |
+| **#5 (MPA Design)** | 16 | 24 | 48 | **36** | Pump insertion retrofit (WBS 3.22) approved and underway. MPA modification work package (3.22.3) addresses tipping problem with guide rails and anti-tip mechanisms. |
+| **#6 (Throughput)** | 32 | 32 | 40 | **32** | Multi-pick suction EOAT design validated in simulation. Sequential insertion approach (7.9-10.5s) fits within 12s COBOT 2 cycle budget at 30 PPM. |
+| **#3 (Resources)** | 16 | 16 | 32 | **24** | End-of-line componentry (3.14-3.17) deferred to 2027, freeing team bandwidth for pump insertion priority. |
+| **#20 (Procurement)** | 18 | 18 | 30 | **20** | FlexiBowl 800 order placed; Photoneo PhoXi M selected over Pickit M-HD (better recipe engine compatibility). Key procurement decisions resolved. |
+| **#14 (Downtime)** | 18 | 18 | 24 | **18** | Bellows suction cups + centering nests eliminate mechanical finger gripper failure modes. Predictable wear pattern (cups are consumable). |
+| **#16 (AI Training Data)** | 8 | 4 | 4 | **4** | Stable — adequate product samples and training data available. |
 
-### Improving Risks
+### New Risks (Q8)
 
-| Risk | Q1 | Q7 | Commentary |
-|------|-----|-----|-----------|
-| **#16 (AI Training Data)** | 8 | **4** | Access to product samples resolved; QC inspection workflow providing adequate training data. |
+| Risk | Q8 Score | Commentary |
+|------|----------|-----------|
+| **#21 (Suction Cup Degradation)** | **16** | Bellows cups are consumables; need maintenance schedule. Mitigated by spring-loaded mounts and spare inventory. |
+| **#22 (3D Print Tolerance Drift)** | **12** | Centering nests require dimensional accuracy. Mitigated by periodic calibration and SPC monitoring. |
+| **#23 (Puck Design Iterations)** | **12** | 5+ product families require individual puck designs. Mitigated by parametric CAD approach and rapid 3D printing. |
+
+### Net Risk Score Change: **-42 points** (5 risks improved, 3 new risks added)
 
 ---
 
-## Mitigation Actions — Q8 Priority
+## Mitigation Actions — Q9 Priority
 
 | Priority | Risk | Action | Owner | Target |
 |----------|------|--------|-------|--------|
-| 1 | #5, #6, #14 | Implement pump insertion system redesign per R.Commander analysis (FlexiBowl, Pickit 3D, custom pucks, EOAT upgrade) | Petra/Sidac | Q8-Q9 |
-| 2 | #20 | Place FlexiBowl 800 order immediately (12-16 week lead time); secure Robotiq and OnRobot demo units | Petra | Q8 |
-| 3 | #3 | Prioritize insertion redesign; defer non-critical tasks to free team bandwidth | Petra | Q8 |
-| 4 | #17 | Schedule bi-weekly integration syncs between Analytika and Sidac on vision/PLC interface | All | Ongoing |
-| 5 | #15 | Validate AI recipe accuracy on existing products; define acceptance criteria for autonomous recipe creation | Analytika | Q8-Q9 |
+| 1 | #5, #6 | Complete WBS 3.22.1 (parts presentation) and begin 3.22.2 (EOAT fabrication) | Sidac | Q9 |
+| 2 | #21 | Establish bellows cup replacement schedule and spare parts inventory | Sidac | Q9 |
+| 3 | #17 | Continue bi-weekly Analytika-Sidac integration syncs; begin 3D vision evaluation (3.22.4.1) | All | Q9-Q10 |
+| 4 | #15 | Validate recipe engine parametric detection profiles with first pump family | Analytika | Q9-Q10 |
+| 5 | #22, #23 | Validate centering nest dimensional tolerance with SPC; complete puck designs for top 3 product families | Sidac | Q9 |

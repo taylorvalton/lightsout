@@ -72,9 +72,9 @@ NGen reimburses 37% of eligible expenses.
 
 ## Current Status
 
-**Project Phase:** Execution (Phase 3 of 5) | **Overall Completion:** ~54% | **Current Quarter:** Q7
+**Project Phase:** Execution (Phase 3 of 5) | **Overall Completion:** ~58% | **Current Quarter:** Q8
 
-The assembly line is built and operational at Petra. The primary challenge is the **pump/cap insertion system redesign** -- the current system generates excessive errors with newly introduced products. Research and solution analysis is complete (see [docs/](docs/)); implementation of the redesign is the next major milestone.
+The assembly line is built and operational at Petra. In Q8, the **pump insertion system retrofit (WBS 3.22)** was formally added to the project plan — a 26-task work package covering parts presentation, multi-pick suction EOAT, MPA modification, vision/recipe engine integration, and pump stem insertion validation. The R.Commander analysis is complete and implementation is underway. End-of-line componentry (3.14-3.17) has been rescheduled to Q11+ to accommodate the retrofit. Project end date remains December 17, 2027 — within the March 30, 2028 constraint.
 
 ## Repository Structure
 

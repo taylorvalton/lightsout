@@ -110,12 +110,14 @@ Analytika plans to sell the AI recipe creation platform as a standalone product 
 | **Dentons (formerly Gowling WLG)** | IP counsel for Petra | Engaged |
 | **BDC** | Equipment financing ($3M for line expansion) | Secured |
 
-### Prospective Vendors (Pump Insertion Redesign)
+### Pump Insertion Retrofit Vendors (Q8 Update)
 
 | Vendor | Product | Status |
 |--------|---------|--------|
-| ARS Automation (Italy) | FlexiBowl 800 flexible feeder | Pending application test |
-| Pickit NV (Belgium) | Pickit M-HD 3D vision system | Pending application study |
-| Robotiq (Montreal, QC) | 2F-85 adaptive gripper | Pending demo |
-| OnRobot (Denmark) | 3FG15 three-finger gripper | Pending evaluation |
-| Cognex (USA) | In-Sight 2800 2D camera | Pending spec review |
+| ARS Automation (Italy) | FlexiBowl 800 flexible feeder | **Order placed** |
+| Photoneo (Slovakia) | PhoXi M 3D scanner | **Selected** — C++ Localization SDK enables programmatic PLCF generation for recipe engine integration |
+| Cognex (USA) | In-Sight 2800 2D camera | Retained for FlexiBowl/COBOT 1 guidance |
+| Schmalz (Germany) | SPB1/SPB4 bellows suction cups | Selected for EOAT |
+| Piab (Sweden) | Alternative bellows suction cups | Backup supplier |
+
+*Note: Pickit M-HD was evaluated but not selected — its API (`pickit_configure`, `pickit_set_cylinder_dim`) cannot create product files programmatically, which is incompatible with Analytika's recipe-driven manufacturing approach.*

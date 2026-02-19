@@ -1,6 +1,6 @@
 # LightsOut IP Plan
 
-**NGen Project 14091** | **Last Updated:** Q7 (November 2025)
+**NGen Project 14091** | **Last Updated:** Q8 (February 2026)
 
 ---
 
@@ -44,6 +44,10 @@ Foreground IP is new intellectual property created during the project. All owned
 | FIP 7 | Case Packing System Software | Sidac (for Petra) | Trade Secret + Copyright | Maintain as trade secret | Software for automated case packing with COBOT vision guidance |
 | FIP 8 | AI Algorithms | Analytika (for Petra) | **Patent + Trade Secret** | **File patent** | CNN (Convolutional Neural Network), GD&T (Geometric Dimensioning & Tolerancing), Kinematic/Path Planning, Stereo Vision with PLC integration for generative recipe creation |
 | FIP 9 | Case Packing System Data | Petra | Copyright + Trade Secret | Maintain as trade secret | Operational data from case packing system |
+| **FIP 10** | **Recipe-Vision Integration Layer** | **Analytika/Petra** | **Trade Secret + Copyright** | **Patent evaluation post-validation** | **Software integration between 3D vision output (Photoneo) and Analytika recipe engine for automated COBOT path and gripper parameter generation** |
+| **FIP 11** | **Force-Mode Insertion Profiles** | **Sidac/Petra** | **Trade Secret** | **Maintain as trade secret** | **Adaptive force-displacement profiles for UR COBOT force_mode insertion of pump stems into viscous materials** |
+| **FIP 12** | **Multi-Zone Vacuum Control Logic** | **Sidac** | **Trade Secret + Copyright** | **Maintain as trade secret** | **PLC/COBOT programming for per-cup vacuum zone control enabling format-specific suction pressure tuning** |
+| **FIP 13** | **Puck System for FlexiBowl** | **Sidac** | **Trade Secret** | **Maintain as trade secret** | **Custom puck carriers for FlexiBowl that standardize pump/cap presentation orientation** |
 
 ---
 
@@ -74,13 +78,17 @@ Gowling WLG conducted a prior art search and found **no existing technology** ma
 | Q5-Q6 | Cursory IP searches for new developments | Complete |
 | Q6 | Cursory search for EOAT and vision inspection patents | Complete |
 | Q7 | Updated cursory search | Complete |
-| Q8+ | Ongoing monitoring; formal FTO assessment before commercialization | Planned |
+| Q8 | Updated FTO assessment for pump insertion components | Complete |
+| Q9-Q10 | Formal FTO search for Recipe-Vision Integration Layer (FIP 10) | Planned |
+| Q10+ | Ongoing monitoring; formal FTO assessment before commercialization | Planned |
 
 ### Key FTO Findings
 
-- **EOAT (FIP 2):** Commercial grippers (Robotiq, OnRobot) are commercially available; Petra's IP is in custom fingertip designs and integration methodology — protectable as trade secrets
+- **EOAT (FIP 2):** Transition from mechanical finger grippers to multi-pick suction EOAT with centering nests. Bellows cups are COTS (Schmalz, Piab) but centering nest integration is novel — no known prior art for suction EOAT application in personal care manufacturing.
 - **AI Algorithms (FIP 8):** No direct competitors found for generative PLC recipe creation from vision inspection data; strong patent potential
-- **Production Line Workflow (FIP 3):** Integration method combining FlexiBowl + Pickit + UR COBOTs + MPA is novel but uses commercial components — protectable as trade secret
+- **Recipe-Vision Integration (FIP 10):** Cursory search found no patents for vision-to-PLC recipe creation in process manufacturing. Novel application area — formal FTO search planned Q9-Q10.
+- **Production Line Workflow (FIP 3):** Integration method combining FlexiBowl + Photoneo + UR COBOTs + MPA is novel but uses commercial components — protectable as trade secret
+- **Sequential Force Insertion (FIP 11):** UR force_mode is standard functionality; sequential insertion sequencing is operational method — trade secret protection sufficient
 
 ---
 

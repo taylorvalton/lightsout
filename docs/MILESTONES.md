@@ -1,6 +1,6 @@
 # LightsOut Milestone Register
 
-**NGen Project 14091** | **Last Updated:** Q7 (November 2025)
+**NGen Project 14091** | **Last Updated:** Q8 (February 2026)
 
 Milestones are tracked in NGen's Salesforce portal and updated quarterly.
 
@@ -36,7 +36,12 @@ Milestones are tracked in NGen's Salesforce portal and updated quarterly.
 | M24 | Digital Twin Control Tower Complete | 3.19.8 | TBD | — | In Progress (10%) | Analytika |
 | M25 | Full End-to-End Testing | 3.19.10 | Oct 7, 2027 | — | Not Started | All Partners |
 | M26 | User Acceptance Testing Complete | 4.5 | Nov 9, 2027 | — | Not Started | Petra |
-| M27 | Final Report & Project Closure | 5.4 | Dec 13, 2027 | — | Not Started | Petra |
+| M27 | Final Report & Project Closure | 5.4 | Dec 17, 2027 | — | Not Started | Petra |
+| **M28** | **Parts Presentation Updated** | **3.22.1.3** | **Apr 10, 2026** | — | **Not Started** | **Sidac** |
+| **M29** | **Multi-Pick EOAT Validated** | **3.22.2.5** | **Jul 17, 2026** | — | **Not Started** | **Sidac** |
+| **M30** | **MPA Modified for Top-Heavy Caps** | **3.22.3.4** | **Jun 5, 2026** | — | **Not Started** | **Sidac** |
+| **M31** | **Vision Recipe Integration Complete** | **3.22.4.4** | **Aug 28, 2026** | — | **Not Started** | **Analytika** |
+| **M32** | **Pump Insertion System Validated at 30 PPM** | **3.22.5.4** | **Nov 13, 2026** | — | **Not Started** | **All** |
 
 ---
 
@@ -44,15 +49,16 @@ Milestones are tracked in NGen's Salesforce portal and updated quarterly.
 
 ### Phase 1 — Initiation: All milestones complete
 ### Phase 2 — Planning: All milestones complete
-### Phase 3 — Execution: 11 of 19 milestones complete or in progress
+### Phase 3 — Execution: 11 of 24 milestones complete or in progress
 
-**At Risk:**
-- **M12 (MPA Readied)** — 99% complete but pump insertion redesign may require rework. Risk #5 elevated to score 48.
-- **M14 (Vision System)** — Only 20% complete. Dependent on insertion system redesign decisions (2D vs 3D vision architecture).
-- **M16 (COBOT Integrated)** — Dependent on EOAT selection and MPA puck design completion.
+**Q8 Updates:**
+- **M12 (MPA Readied)** — 99% complete; MPA modification for top-heavy caps (WBS 3.22.3) will address remaining issues. Risk #5 reduced from 48 to 36.
+- **M14 (Vision System)** — 20% complete. Vision architecture decision made: Photoneo PhoXi M for 3D (programmatic PLCF generation via C++ SDK); Cognex 2D retained for FlexiBowl.
+- **M15-M19** — End-of-line componentry rescheduled to Jan-Oct 2027 to prioritize pump insertion retrofit.
+- **M28-M32 (NEW)** — Five new milestones added for pump insertion retrofit (WBS 3.22), spanning Apr-Nov 2026.
 
-### Phase 4 — Control: Not started (scheduled Apr 2026)
-### Phase 5 — Closure: Not started (scheduled Mar 2026 - Dec 2027)
+### Phase 4 — Control: Not started (scheduled Nov 2026)
+### Phase 5 — Closure: Not started (scheduled 2027)
 
 ---
 

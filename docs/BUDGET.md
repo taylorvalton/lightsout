@@ -1,6 +1,6 @@
 # LightsOut Financial Tracking
 
-**NGen Project 14091** | **Last Updated:** Q7 (November 2025)
+**NGen Project 14091** | **Last Updated:** Q8 (February 2026)
 
 ---
 
@@ -54,23 +54,33 @@ Primary expenses: Mechanical engineering and design, MPA fabrication, COBOT prog
 
 ## Upcoming Budget Considerations
 
-### Pump Insertion Redesign (Estimated $158K-259K CAD)
+### Pump Insertion Retrofit Budget ($286K CAD)
 
-The R.Commander analysis recommends a retrofit solution that will require additional capital expenditure:
+The Q8 budget analysis (detailed in SharePoint: `14091 - Q8 Budget Analysis - Pump Insertion.xlsx`) breaks down the pump insertion retrofit across 5 work phases:
 
-| Component | Estimated Cost (CAD) | NGen Eligible? |
-|-----------|---------------------|---------------|
-| FlexiBowl 800 + Cognex 2D | $75K-116K | TBD |
-| Pickit M-HD 3D Vision | $20K-34K | TBD |
-| Custom Pucks (5 families) | $15K-31K | TBD |
-| Robotiq 2F-85 + custom fingers | $8K-13K | TBD |
-| OnRobot 3FG15 + custom fingertips | $11K-15K | TBD |
-| 3D Printer (Formlabs SLS) | $14K-20K | TBD |
-| Integration Engineering | $15K-30K | TBD |
-| **Total** | **$158K-259K** | |
-| **After NGen 37%** | **$100K-163K** | |
+| Phase | Sidac | Petra | Analytika | Total |
+|-------|-------|-------|-----------|-------|
+| 3.22.1 Parts Presentation | $28,000 | $4,500 | — | $32,500 |
+| 3.22.2 Multi-Pick EOAT | $72,000 | $6,000 | — | $78,000 |
+| 3.22.3 MPA Modification | $38,500 | $4,500 | — | $43,000 |
+| 3.22.4 Vision & Recipe Integration | $15,000 | $7,500 | $55,000 | $77,500 |
+| 3.22.5 Insertion Validation | $40,000 | $15,000 | — | $55,000 |
+| **Total** | **$193,500** | **$37,500** | **$55,000** | **$286,000** |
 
-These costs would be distributed across Q8 and Q9 claim periods, aligning with NGen reimbursement cadence.
+**NGen Reimbursement (37%):** ~$106K on $286K eligible expenses
+
+#### Recommended Budget Reallocation
+
+$125K reallocation from Sidac Materials & Supplies (only 15.2% spent, $440K unspent):
+
+| From | To | Amount | Purpose |
+|------|----|--------|---------|
+| Sidac M&S | Petra Labor | $50,000 | Production staff for testing & validation |
+| Sidac M&S | Petra Equipment | $30,000 | Pump insertion testing fixtures |
+| Sidac M&S | Sidac Labor | $25,000 | Internal reallocation for EOAT engineering |
+| Sidac M&S | Sidac Equipment | $20,000 | Internal reallocation for tooling |
+
+Net impact: Zero — budget neutral reallocation within existing approved NGen funding.
 
 ---
 
