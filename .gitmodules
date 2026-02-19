@@ -1,0 +1,3 @@
+[submodule "agentic-swarm"]
+	path = agentic-swarm
+	url = https://github.com/taylorvalton/agentic-swarm.git
